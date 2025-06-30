@@ -6,6 +6,6 @@
 
 - Lecture notes, datasets, and other resources will be collected here.
 
-- Watch this repo so you'll be notified of upldates.
+- Watch this repo so you'll be notified of updates.
 
 - For the official course information sheet and for anything grading-ralated (assignments, group project write-ups, etc.), see the course D2L site.
