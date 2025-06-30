@@ -108,7 +108,9 @@ name = "data607s2025"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "gurobi-machinelearning" },
     { name = "gurobipy" },
+    { name = "gurobipy-pandas" },
     { name = "ipykernel" },
     { name = "matplotlib" },
     { name = "numpy" },
@@ -119,7 +121,9 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "gurobi-machinelearning", specifier = ">=1.5.5" },
     { name = "gurobipy", specifier = ">=12.0.2" },
+    { name = "gurobipy-pandas", specifier = ">=1.2.2" },
     { name = "ipykernel", specifier = ">=6.29.5" },
     { name = "matplotlib", specifier = ">=3.10.3" },
     { name = "numpy", specifier = ">=2.3.1" },
@@ -177,6 +181,20 @@ wheels = [
 ]
 
 [[package]]
+name = "gurobi-machinelearning"
+version = "1.5.5"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "gurobipy" },
+    { name = "numpy" },
+    { name = "scipy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/7c/56/97fd18d7c23bd06c3186eefaa4d9e6662c00e691494916a0a7948a00ba06/gurobi_machinelearning-1.5.5.tar.gz", hash = "sha256:88c2975c40a517f6b9607cbf847ff805bca9cd99de14c03fa67704f0022ea024", size = 40677 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/21/79/1a00c65ebf3df615369c9a6905f8aa8c9b08b5c967c717243921508adc55/gurobi_machinelearning-1.5.5-py3-none-any.whl", hash = "sha256:ae9b289bbdf4bb094bfb0048ed5fa3e7612928d26bef149f6a12bbb00341a300", size = 73023 },
+]
+
+[[package]]
 name = "gurobipy"
 version = "12.0.2"
 source = { registry = "https://pypi.org/simple" }
@@ -185,6 +203,19 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/77/0d/5d6131fed7ccbd5f7e7773b2cec6eb8d2f66ca1d47def00a4fa46622c521/gurobipy-12.0.2-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:b3caebef6a7c6ba23559872ab73dcd8040c7156ef80cde0b59118bbdfd24e779", size = 62573861 },
     { url = "https://files.pythonhosted.org/packages/86/b3/c627ec23998481b056d2cb6af5b2829a333d344b6a55c4e393cc0a803cf8/gurobipy-12.0.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:240aab60fcfbfe586f456d6ecbcc8eca3b5aa5ffe717e6a08c41c82964026137", size = 14266673 },
     { url = "https://files.pythonhosted.org/packages/a0/96/0ca5e669fa4923cb6dd661265331d5440aa5451b7f59705e9d16f85848af/gurobipy-12.0.2-cp313-cp313-win_amd64.whl", hash = "sha256:6ee688efdd177cb38697f77237406f5240c47ceb5469b61c9c375d961479b10a", size = 11099909 },
+]
+
+[[package]]
+name = "gurobipy-pandas"
+version = "1.2.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "gurobipy" },
+    { name = "pandas" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/4b/b4/0a75faccbd99e3db7d8452e6c63ea84864d8f4fad1357f2401e13e8751fa/gurobipy_pandas-1.2.2.tar.gz", hash = "sha256:9b3c47c1176a7efb6429c3023057bcbb5666da1916e8e8a14156c69307769847", size = 213057 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/fb/09/85f5f84aaba21eaa5b97ca1e6de89ab5471617389a3382160d0a4fbbf39f/gurobipy_pandas-1.2.2-py3-none-any.whl", hash = "sha256:e3e533959d38a955cbbd2ed2dfb7e4fe5bd240999d45a5a1afad39428d1bc597", size = 19819 },
 ]
 
 [[package]]
