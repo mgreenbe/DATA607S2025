@@ -1,8 +1,8 @@
 # DATA 607 &mdash; Statistical and Machine Learning
 
-## Summer 2025, University of Calgary
+- Summer 2025, University of Calgary
 
-### Instructor: Matthew Greenberg (mgreenbe@ucalgary.ca)
+- Instructor: Matthew Greenberg (mgreenbe@ucalgary.ca)
 
 - Lecture notes, datasets, and other resources will be collected here.
 
