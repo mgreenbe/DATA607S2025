@@ -5,6 +5,7 @@ build/
 dist/
 wheels/
 scratch/
+digit-recognizer/
 *.egg-info
 
 # Virtual environments
