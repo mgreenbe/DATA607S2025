@@ -6,6 +6,7 @@ dist/
 wheels/
 scratch/
 digit-recognizer/
+glove.6B/
 *.egg-info
 
 # Virtual environments
