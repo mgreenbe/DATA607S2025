@@ -7,6 +7,7 @@ wheels/
 scratch/
 digit-recognizer/
 glove.6B/
+npz/
 *.egg-info
 
 # Virtual environments
