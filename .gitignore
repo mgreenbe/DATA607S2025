@@ -6,6 +6,7 @@ dist/
 wheels/
 scratch/
 digit-recognizer/
+fashion-mnist/
 glove.6B/
 npz/
 *.egg-info
